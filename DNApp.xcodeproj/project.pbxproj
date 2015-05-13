@@ -36,6 +36,7 @@
 		00ACB22A1B02332700541C31 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACB20D1B02332700541C31 /* TransitionManager.swift */; };
 		00ACB22B1B02332700541C31 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACB20E1B02332700541C31 /* TransitionZoom.swift */; };
 		00ACB22C1B02332700541C31 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACB20F1B02332700541C31 /* UnwindSegue.swift */; };
+		00ACB26A1B03D6D700541C31 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACB2691B03D6D700541C31 /* LoginViewController.swift */; };
 		961CC5CD1A7B949800954999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CC5CC1A7B949800954999 /* AppDelegate.swift */; };
 		961CC5D01A7B949800954999 /* DNApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 961CC5CE1A7B949800954999 /* DNApp.xcdatamodeld */; };
 		961CC5D21A7B949800954999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CC5D11A7B949800954999 /* ViewController.swift */; };
@@ -86,6 +87,7 @@
 		00ACB20D1B02332700541C31 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		00ACB20E1B02332700541C31 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		00ACB20F1B02332700541C31 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		00ACB2691B03D6D700541C31 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		961CC5C71A7B949800954999 /* DNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		961CC5CB1A7B949800954999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		961CC5CC1A7B949800954999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 				00ACB1F11B02332700541C31 /* Spring */,
 				961CC5CC1A7B949800954999 /* AppDelegate.swift */,
 				961CC5D11A7B949800954999 /* ViewController.swift */,
+				00ACB2691B03D6D700541C31 /* LoginViewController.swift */,
 				961CC5D31A7B949800954999 /* Main.storyboard */,
 				961CC5D61A7B949800954999 /* Images.xcassets */,
 				961CC5D81A7B949800954999 /* LaunchScreen.xib */,
@@ -327,6 +330,7 @@
 				961CC5D21A7B949800954999 /* ViewController.swift in Sources */,
 				00ACB2211B02332700541C31 /* SoundPlayer.swift in Sources */,
 				00ACB21A1B02332700541C31 /* DesignableView.swift in Sources */,
+				00ACB26A1B03D6D700541C31 /* LoginViewController.swift in Sources */,
 				00ACB2171B02332700541C31 /* DesignableTabBarController.swift in Sources */,
 				00ACB2141B02332700541C31 /* DesignableButton.swift in Sources */,
 				961CC5CD1A7B949800954999 /* AppDelegate.swift in Sources */,
