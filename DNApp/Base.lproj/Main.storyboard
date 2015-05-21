@@ -14,7 +14,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoryCell" rowHeight="100" id="EmJ-MP-xRk">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StoryCell" rowHeight="100" id="EmJ-MP-xRk" customClass="StoryTableViewCell" customModule="DNApp" customModuleProvider="target">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="EmJ-MP-xRk" id="Y4m-x1-wHS">
                                     <autoresizingMask key="autoresizingMask"/>
@@ -64,6 +64,9 @@
                                                 <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="upvoteButtonDidTouch:" destination="EmJ-MP-xRk" eventType="touchUpInside" id="jVr-Wc-PaZ"/>
+                                            </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dBc-iY-eva" customClass="SpringButton" customModule="DNApp" customModuleProvider="target">
                                             <rect key="frame" x="95" y="54" width="70" height="33"/>
@@ -78,6 +81,9 @@
                                                 <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
+                                            <connections>
+                                                <action selector="commentButtonDidTouch:" destination="EmJ-MP-xRk" eventType="touchUpInside" id="rsV-Lb-6hO"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -109,6 +115,15 @@
                                     </variation>
                                 </tableViewCellContentView>
                                 <inset key="separatorInset" minX="35" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="authorLabel" destination="qTp-6G-At8" id="kzk-3a-yNz"/>
+                                    <outlet property="avatarImageView" destination="PvJ-wH-YYr" id="AqJ-57-nHl"/>
+                                    <outlet property="badgeImageView" destination="sRS-Ve-9Ys" id="PVG-vt-cLv"/>
+                                    <outlet property="commentButton" destination="dBc-iY-eva" id="5JQ-tz-FAM"/>
+                                    <outlet property="timeLabel" destination="1WV-TB-zhj" id="gw7-5f-Iyy"/>
+                                    <outlet property="titleLabel" destination="7NQ-dw-Qw0" id="BAv-44-jA6"/>
+                                    <outlet property="upvoteButton" destination="wUk-Ny-lRG" id="TEQ-ZW-YnB"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

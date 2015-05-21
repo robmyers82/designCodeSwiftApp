@@ -15,6 +15,8 @@ class StoriesTableViewController: UITableViewController {
         
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableViewAutomaticDimension
+        
+        UIApplication.sharedApplication().setStatusBarStyle(UIStatusBarStyle.LightContent, animated: true)
     }
 
     @IBAction func menuButtonDidTouch(sender: AnyObject) {
@@ -32,7 +34,15 @@ class StoriesTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("StoryCell") as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("StoryCell") as! StoryTableViewCell
+        
+        cell.titleLabel.text = "How did I get so Awesome?"
+        cell.badgeImageView.image = UIImage(named: "badge-apple")
+        cell.avatarImageView.image = UIImage(named: "content-avatar-default")
+        cell.authorLabel.text = "Rob Myers, designer and coder"
+        cell.timeLabel.text = "5m"
+        cell.upvoteButton.setTitle("59", forState: UIControlState.Normal)
+        cell.commentButton.setTitle("32", forState: UIControlState.Normal)
         
         return cell
     }

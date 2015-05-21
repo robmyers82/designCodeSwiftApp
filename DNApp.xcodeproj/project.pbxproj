@@ -39,6 +39,7 @@
 		00110EE31B0D60540001FCC7 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00110EC61B0D60540001FCC7 /* UnwindSegue.swift */; };
 		00110EE51B0D64B90001FCC7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00110EE41B0D64B90001FCC7 /* MenuViewController.swift */; };
 		00110EE71B0D65450001FCC7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00110EE61B0D65450001FCC7 /* WebViewController.swift */; };
+		00110EE91B0D80460001FCC7 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00110EE81B0D80460001FCC7 /* StoryTableViewCell.swift */; };
 		00ACB26A1B03D6D700541C31 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACB2691B03D6D700541C31 /* LoginViewController.swift */; };
 		00ACB26C1B042D8D00541C31 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ACB26B1B042D8D00541C31 /* LearnViewController.swift */; };
 		961CC5CD1A7B949800954999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961CC5CC1A7B949800954999 /* AppDelegate.swift */; };
@@ -93,6 +94,7 @@
 		00110EC61B0D60540001FCC7 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		00110EE41B0D64B90001FCC7 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		00110EE61B0D65450001FCC7 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		00110EE81B0D80460001FCC7 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
 		00ACB2691B03D6D700541C31 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		00ACB26B1B042D8D00541C31 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		961CC5C71A7B949800954999 /* DNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +188,7 @@
 				00110EA81B0D60540001FCC7 /* Spring */,
 				961CC5CC1A7B949800954999 /* AppDelegate.swift */,
 				00110EA61B0D57CF0001FCC7 /* StoriesTableViewController.swift */,
+				00110EE81B0D80460001FCC7 /* StoryTableViewCell.swift */,
 				00ACB2691B03D6D700541C31 /* LoginViewController.swift */,
 				00ACB26B1B042D8D00541C31 /* LearnViewController.swift */,
 				00110EE41B0D64B90001FCC7 /* MenuViewController.swift */,
@@ -360,6 +363,7 @@
 				00110ED51B0D60540001FCC7 /* LoadingView.swift in Sources */,
 				00110EDF1B0D60540001FCC7 /* SpringTextView.swift in Sources */,
 				00110EC81B0D60540001FCC7 /* AsyncImageView.swift in Sources */,
+				00110EE91B0D80460001FCC7 /* StoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
